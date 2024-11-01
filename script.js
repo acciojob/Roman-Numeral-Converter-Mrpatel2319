@@ -28,7 +28,7 @@ function convertToRoman(num) {
 }
 
 // Example usage
-const input = prompt("Enter a number");
+const input = prompt("Enter a number:");
 const number = parseInt(input, 10);
 if (number >= 0 && number <= 100000) {
     alert(convertToRoman(number));
